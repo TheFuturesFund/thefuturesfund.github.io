@@ -1,0 +1,26 @@
+<header class="site-header">
+
+  <div class="header-wrapper">
+
+    <div class='header-left'>
+      <a class='branding-link' href='/'>
+        <img id='header-logo' src='/img/header-logo.png'>
+        <h1 id='header-title'>THE FUTURES FUND</h1>
+      </a>
+    </div>
+
+    <div class='header-right'>
+      {% assign current_page = page.url | downcase | split: '/' %}
+      <div class='header-nav'>
+        <ul>
+          <li><a href='/about' {% if current_page[1] == 'about' %}class='header-nav-selected'{% endif %}>About</a></li>
+          <li><a href='/programs' {% if current_page[1] == 'programs' %}class='header-nav-selected'{% endif %} >Programs</a></li>
+          <!--<li><a>Blog</a></li>-->
+          <li><a href='/donate' {% if current_page[1] == 'donate' %}class='header-nav-selected'{% endif %}>Donate</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</header>

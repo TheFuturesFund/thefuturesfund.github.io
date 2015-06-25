@@ -1,0 +1,56 @@
+.carousel {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+@media (max-width: $mobile-breakpoint) {
+  /*.carousel {
+    visibility: hidden;
+    height: 0px;
+  }*/
+}
+
+.carousel-border {
+  margin:0;
+  padding:0;
+  background-color:black;
+  height: 30px;
+  style:solid;
+}
+
+.carousel-img-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  position: relative;
+}
+
+#carousel-img {
+  position: relative;
+  width: inherit;
+}
+
+/*.carousel-text {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 26px;
+    color: white;
+    text-shadow: 1.5px 1.5px rgba(1.0, 1.0, 1.0, 0.5);
+  }
+  p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    text-shadow: 1px 1px rgba(1.0, 1.0, 1.0, 0.5);
+  }
+}*/

@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Questrial', sans-serif;
+$mobile-breakpoint: 900px;
+$text-color: #111;
+
+// Colors
+$teal-color:   #0096aa;
+$yellow-color: #ffc700;
+$purple-color: #7474c1;
+$red-color:    #e84f3d;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+/*@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}*/
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "header",
+        "footer",
+        "base",
+        "carousel",
+        "index",
+        "about",
+        "donate",
+        "programs",
+        "donate-block"
+;
