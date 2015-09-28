@@ -72,25 +72,29 @@ div.header-break {
   }
 
   .header-element {
+    text-align: center;
     height: auto;
     float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img.brand-image {
+    display: block;
     width: 80px;
     height: 80px;
-    margin: 18px 0px 6px 0px;
+    margin: 18px auto 6px auto;
   }
 
   h1.brand-title {
     font-size: 32px;
-    margin: 6px 0px 0px 0px;
+    margin: 6px auto 0px auto;
   }
 
   nav.header-nav {
     float: none;
     height: auto;
-    margin: 0px 0px 10px 0px;
+    margin: 0px auto 10px auto;
 
     span {
       font-size: 20px;
