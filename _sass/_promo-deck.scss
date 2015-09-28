@@ -1,0 +1,20 @@
+div.promo-deck {
+  width: 100%;
+}
+
+div.promo-deck-header {
+  width: 100%;
+  height: 16px;
+  background-color: $black-color;
+}
+
+div.promo-deck-image {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  div.promo-deck {
+    height: 0;
+    visibility: hidden;
+  }
+}
