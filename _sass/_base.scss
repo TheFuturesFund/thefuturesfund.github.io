@@ -56,6 +56,10 @@ img {
     vertical-align: middle;
 }
 
+hr.divider {
+  margin: 0px 50px;
+}
+
 @media (max-width: $width-breakpoint) {
   body {
     font-size: 14px;

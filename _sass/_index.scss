@@ -2,8 +2,6 @@ img.promo-deck {
   width: 100%;
 }
 
-
-
 .index-preview {
   margin: 50px 50px;
   h1 {
@@ -91,6 +89,14 @@ img.promo-deck {
 }
 
 @media (max-width: $width-breakpoint) {
+  .programs-preview-element {
+    width: 49%;
+    display: inline-block;
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 600px) {
   .programs-preview-element {
     width: 100%;
     display: block;
