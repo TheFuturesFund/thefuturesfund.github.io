@@ -8,11 +8,11 @@
 // Our variables
 $base-font-family: 'Questrial', sans-serif;
 $mobile-breakpoint: 900px;
-$text-color: #111;
 
 // Colors
-$teal-color:   #0096aa;
+$black-color:  #111111;
 $yellow-color: #ffc700;
+$teal-color:   #0096aa;
 $purple-color: #7474c1;
 $red-color:    #e84f3d;
 
@@ -32,14 +32,5 @@ $red-color:    #e84f3d;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "header",
-        "footer",
-        "base",
-        "carousel",
-        "index",
-        "about",
-        "donate",
-        "programs",
-        "donate-block"
-;
+@import "base"
+
