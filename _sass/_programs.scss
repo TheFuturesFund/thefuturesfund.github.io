@@ -1,6 +1,6 @@
 #programs-title {
   text-align: center;
-  margin: 0px;
+  margin: 16px 0px;
   padding: 0px;
 }
 
@@ -44,7 +44,6 @@
     }
     p {
       color: white;
-      font-size: 16px;
       font-weight: thin;
       margin: 5px 5%;
       width: 88%;
@@ -94,7 +93,7 @@
   }
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $width-breakpoint) {
   .program-container {
     height: auto;
     text-align: left;

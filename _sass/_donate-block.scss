@@ -47,7 +47,7 @@
   padding: 0 10% 0 2.5%;
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $width-breakpoint) {
   .donate-block {
     height: auto;
     width: 90%;

@@ -60,6 +60,14 @@ hr.divider {
   margin: 0px 50px;
 }
 
+.yellow-bar {
+  background-color: $yellow-color;
+  width: 100px;
+  height: 5px;
+  margin: 20px auto;
+}
+
+
 @media (max-width: $width-breakpoint) {
   body {
     font-size: 14px;
@@ -86,7 +94,7 @@ hr.divider {
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -149,13 +157,6 @@ hr.divider {
 // /**
 //  * Common Elements
 //  */
-// .yellow-bar {
-//   background-color: $yellow-color;
-//   width: 100px;
-//   height: 5px;
-//   margin: 20px auto;
-// }
-
 // .divider {
 //   margin: 0px 50px;
 // }
