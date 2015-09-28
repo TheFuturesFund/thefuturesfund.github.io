@@ -1,3 +1,9 @@
+img.promo-deck {
+  width: 100%;
+}
+
+
+
 .index-preview {
   margin: 50px 50px;
   h1 {
@@ -35,7 +41,7 @@
   }
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $width-breakpoint) {
   #about-preview {
     margin-top: 40px;
   }
@@ -84,7 +90,7 @@
   }
 }
 
-@media (max-width: $mobile-breakpoint) {
+@media (max-width: $width-breakpoint) {
   .programs-preview-element {
     width: 100%;
     display: block;
