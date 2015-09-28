@@ -1,0 +1,77 @@
+/*
+  Common rules for laying out elements on the page
+*/
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 15px 0px;
+  padding: 15px 0px;
+}
+
+.col {
+  display: inline;
+}
+
+.col-1 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-2 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-3 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-4 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-5 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-6 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-7 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-8 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-9 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-10 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-11 {
+  @extend .col;
+  width: 100% / 12%
+}
+
+.col-12 {
+  @extend .col;
+  width: 100% / 12%
+}

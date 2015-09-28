@@ -32,5 +32,6 @@ $red-color:    #e84f3d;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base"
+@import "base";
+@import "layout";
 

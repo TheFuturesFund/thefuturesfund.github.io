@@ -1,5 +1,5 @@
 /*
-  Setup basic styles
+  Reset the default stlyes for common elements
 */
 
 * {
@@ -33,7 +33,8 @@ h4 {
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 p {
@@ -53,7 +54,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 // /**
 //  * Reset some basic elements
