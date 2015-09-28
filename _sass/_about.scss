@@ -33,31 +33,44 @@
   }
 }
 
-.about-instructor-table {
+.instructor-cell {
+  display: inline-block;
   text-align: center;
-  width: 950px;
+  vertical-align: top;
   margin: auto;
-  td {
-    padding: 12.5px;
-    vertical-align: top;
-    h3 {
-      line-height: 15px;
-      font-size: 15px;
-    }
-    p {
-      font-size: 13px;
-      line-height: 14px;
-    }
-    a {
-      color: rgba(1.0, 1.0, 1.0, 0.5);
-      text-decoration: underline;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+  width: 18%;
+  padding: 2.4%;
+
+  h3 {
+    margin-top: 7px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  a {
+    color: rgba(1.0, 1.0, 1.0, 0.5);
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
 
-.about-instructor-image {
-  margin: 10px;
+@media (max-width: $width-breakpoint) {
+  .instructor-cell {
+    width: 40%;
+    display: inline-block;
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .instructor-cell {
+    width: 100%;
+    display: block;
+    margin: 20px 0px;
+  }
 }
