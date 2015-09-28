@@ -59,6 +59,40 @@ nav.header-nav {
     }
   }
 }
+
+@media (max-width: $width-breakpoint) {
+  header {
+    height: auto;
+  }
+
+  .header-element {
+    height: auto;
+    float: none;
+  }
+
+  img.brand-image {
+    width: 100px;
+    height: 100px;
+    margin: 18px 0px 6px 0px;
+  }
+
+  h1.brand-title {
+    font-size: 32px;
+    margin: 6px 0px -6px 0px;
+  }
+
+  nav.header-nav {
+    float: none;
+    height: auto;
+    margin: 0px 0px;
+
+    span {
+      display: block;
+      padding: 0px 3px;
+    }
+  }
+}
+
 // .site-header {
 //   height: 180px;
 //   margin: 0px 50px;

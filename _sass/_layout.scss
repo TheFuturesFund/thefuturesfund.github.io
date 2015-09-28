@@ -3,8 +3,9 @@
 */
 
 .container {
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .row {
@@ -74,4 +75,10 @@
 .col-12 {
   @extend .col;
   width: 100% / 12%
+}
+
+@media (max-width: $width-breakpoint) {
+  .container {
+    width: auto;
+  }
 }
