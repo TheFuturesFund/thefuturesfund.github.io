@@ -1,33 +1,17 @@
 <header>
-  <div class="container">
-    <a class="brand-link" href="/">
-      <img class="brand-image" src="/img/header-logo.png">
-      <h1 class="brand-title">The Futures Fund</h1>
-    </a>
-
-    {% assign current_page = page.url | downcase | split: '/' %}
-    <nav class="header-nav">
-      <span>
-        <a href="/about" {% if current_page[1] == "about" %} class="header-nav-selected" {% endif %}>
-          About
-        </a>
-      </span>
-      <span>
-        <a href="/programs" {% if current_page[1] == "programs" %} class="header-nav-selected" {% endif %} >
-          Programs
-        </a>
-      </span>
-      <!--<span>
-        <a href="/blog" {% if current_page[1] == "blog" %} class="header-nav-selected" {% endif %} >
-          Blog
-        </a>
-      </span>-->
-      <span>
-        <a href="/donate" {% if current_page[1] == "donate" %}class="header-nav-selected" {% endif %}>
-          Donate
-        </a>
-      </span>
-    </nav>
-  </div>
+  <h1 id="brand">
+    THE FUTURES FUND
+  </h1>
+  <ul id="header-image-list">
+    <li><img src="/img/header/performing-program.png">
+    <li><img src="/img/header/digital-program.png">
+    <li><img src="/img/header/literary-program.png">
+    <li><img src="/img/header/visual-program.png">
+  </ul>
+  <ul id="header-subtitle-list">
+    <li id="header-subtitle-performing"><span>Performing</span>
+    <li id="header-subtitle-digital"><span>Digital</span>
+    <li id="header-subtitle-literary"><span>Literary</span>
+    <li id="header-subtitle-visual"><span>Visual</span>
+  </ul>
 </header>
-<!--<div class="header-break"></div>-->

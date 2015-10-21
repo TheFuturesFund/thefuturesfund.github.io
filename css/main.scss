@@ -6,15 +6,16 @@
 
 
 // Our variables
-$base-font-family: 'Questrial', sans-serif;
+$base-font-family: 'Roboto Condensed', sans-serif;
 $width-breakpoint: 900px;
 
 // Colors
 $black-color:  #111111;
-$yellow-color: #ffc700;
-$teal-color:   #0096aa;
-$purple-color: #7474c1;
-$red-color:    #e84f3d;
+$white-color:  #ffffff;
+$yellow-color: #f8a40c;
+$teal-color:   #3a97aa;
+$purple-color: #5543a3;
+$red-color:    #eb2222;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

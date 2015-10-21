@@ -14,67 +14,67 @@
 }
 
 .col {
-  display: inline;
+  display: inline-block;
 }
 
 .col-1 {
   @extend .col;
-  width: 100% / 12%
+  width: 8%
 }
 
 .col-2 {
   @extend .col;
-  width: 100% / 12%
+  width: 15.5%
 }
 
 .col-3 {
   @extend .col;
-  width: 100% / 12%
+  width: 24.5%
 }
 
 .col-4 {
   @extend .col;
-  width: 100% / 12%
+  width: 32.5%
 }
 
 .col-5 {
   @extend .col;
-  width: 100% / 12%
+  width: 41.5%
 }
 
 .col-6 {
   @extend .col;
-  width: 100% / 12%
+  width: 49.5%
 }
 
 .col-7 {
   @extend .col;
-  width: 100% / 12%
+  width: 57.5%
 }
 
 .col-8 {
   @extend .col;
-  width: 100% / 12%
+  width: 65.5%
 }
 
 .col-9 {
   @extend .col;
-  width: 100% / 12%
+  width: 74.5%
 }
 
 .col-10 {
   @extend .col;
-  width: 100% / 12%
+  width: 82.5%
 }
 
 .col-11 {
   @extend .col;
-  width: 100% / 12%
+  width: 91.5%
 }
 
 .col-12 {
   @extend .col;
-  width: 100% / 12%
+  width: 100%
 }
 
 @media (max-width: $width-breakpoint) {
