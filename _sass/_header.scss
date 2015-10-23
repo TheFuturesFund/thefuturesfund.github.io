@@ -65,9 +65,10 @@ header {
       }
 
       h1 {
-        margin: 10px 0 0 $horizontal-margin;
+        margin: 0;
+        padding: 10px 0 0 $horizontal-margin;
         position: static;
-        width: 100%;
+        width: 90%;
       }
     }
 
