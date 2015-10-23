@@ -1,0 +1,86 @@
+/*
+  These styles layout the site header
+*/
+
+div#promo-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+
+  h1#promo-banner-brand {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $black-color;
+    color: $white-color;
+    font-size: 100px;
+    font-weight: 300;
+    height: 117.5px;
+    margin-bottom: -95px;
+    word-spacing: 15px;
+    width: 900px;
+    text-align: center;
+  }
+
+  ul#promo-banner-image-list {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      width: 25%;
+      vertical-align: top;
+    }
+  }
+
+  ul#promo-banner-subtitle-list {
+    list-style: none;
+
+    li {
+      position: absolute;
+      height: 50px;
+      text-align: center;
+      width: 25%;
+      vertical-align: middle;
+
+      span {
+        font-weight: bold;
+        font-size: 24px;
+        color: $white-color;
+        line-height: 50px;
+        height: 100%;
+      }
+    }
+
+    li#promo-banner-subtitle-performing {
+      top: 0;
+      left: 0;
+      background-color: $yellow-color;
+    }
+
+    li#promo-banner-subtitle-digital {
+      top: 0;
+      left: 25%;
+      background-color: $teal-color;
+    }
+
+    li#promo-banner-subtitle-literary {
+      top: 0;
+      left: 50%;
+      background-color: $purple-color;
+    }
+
+    li#promo-banner-subtitle-visual {
+      top: 0;
+      left: 75%;
+      background-color: $red-color;
+    }
+  }
+}
+
+@media (max-width: $width-breakpoint) {
+  div#promo-banner {
+    display: none;
+  }
+}

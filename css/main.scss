@@ -17,21 +17,25 @@ $teal-color:   #3a97aa;
 $purple-color: #5543a3;
 $red-color:    #eb2222;
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-/*@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}*/
+@media screen and (max-width: $width-breakpoint) {
+  $horizontal-margin: 20px;
+  @import "base";
+  @import "header";
+  @import "promo-banner";
+  @import "index";
+  @import "overview";
+  @import "donate";
+  @import "copyright";
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "base";
-@import "header";
-@import "index";
+@media screen and (min-width: $width-breakpoint) {
+  $horizontal-margin: 100px;
+  @import "base";
+  @import "header";
+  @import "promo-banner";
+  @import "index";
+  @import "overview";
+  @import "donate";
+  @import "copyright";
+}
 

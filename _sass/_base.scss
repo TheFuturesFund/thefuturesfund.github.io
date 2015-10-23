@@ -18,7 +18,13 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 40px;
+  display: inline-block;
+  margin: 40px 0px 20px 0px;
+  padding: 2.5px $horizontal-margin;
+  font-weight: 700;
+  background-color: $black-color;
+  color: $white-color;
+  font-size: 36px;
 }
 
 h2 {
@@ -39,7 +45,8 @@ h5 {
 }
 
 p {
-  font-size: 16px;
+  margin: 20px $horizontal-margin;
+  font-size: 18px;
   line-height: 18px;
 }
 
@@ -51,22 +58,21 @@ a:hover {
   color: $black-color;
 }
 
+em {
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-hr.divider {
-  margin: 0px 50px;
+div.banner-spacer {
+  height: 15px;
+  background-color: $black-color;
 }
-
-.yellow-bar {
-  background-color: $yellow-color;
-  width: 100px;
-  height: 5px;
-  margin: 20px auto;
-}
-
 
 @media (max-width: $width-breakpoint) {
   body {
@@ -95,5 +101,9 @@ hr.divider {
 
   p {
     font-size: 16px;
+  }
+
+  div.banner-spacer {
+    display: none;
   }
 }

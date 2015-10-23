@@ -1,77 +1,91 @@
-/*
-  These styles layout the site header
-*/
-
 header {
-  width: 100%;
-  text-align: center;
+  height: 180px;
 
-  h1#brand {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: $black-color;
-    color: $white-color;
-    font-size: 100px;
-    height: 117.5px;
-    margin-bottom: -95px;
-    word-spacing: 15px;
-    width: 900px;
-    float: top;
-    text-align: center;
-  }
+  a#header-brand {
+    display: inline-block;
 
-  ul#header-image-list {
-    list-style: none;
+    img {
+      margin-left: $horizontal-margin;
+      margin-top: 40px;
+      height: 100px;
+      width: 100px;
+    }
 
-    li {
-      display: inline-block;
-      width: 25%;
-      vertical-align: top;
+    h1 {
+      color: $black-color;
+      background-color: rgba(0, 0, 0, 0);
+      font-weight: 400;
+      padding: 0;
+      margin-left: 20px;
+      position: relative;
+      top: 27px;
     }
   }
 
-  ul#header-subtitle-list {
-    list-style: none;
+  nav {
+    float: right;
+    position: relative;
+    top: 72.5px;
+    display: inline-block;
+    margin-right: $horizontal-margin;
 
-    li {
-      position: absolute;
-      height: 50px;
-      text-align: center;
-      width: 25%;
-      vertical-align: middle;
+    ul {
+      list-style: none;
 
-      span {
-        font-weight: bold;
-        font-size: 24px;
-        color: $white-color;
-        line-height: 50px;
-        height: 100%;
+      li {
+        padding: 5px 12.5px;
+        display: inline-block;
+
+        a {
+          color: $black-color;
+          text-decoration: none;
+          font-size: 18px;
+        }
+
+        a:hover {
+          color: $yellow-color;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $width-breakpoint) {
+  header {
+    height: auto;
+
+    a#header-brand {
+      display: block;
+
+      img {
+        margin-left: $horizontal-margin;
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+      }
+
+      h1 {
+        margin: 10px 0 0 $horizontal-margin;
+        position: static;
+        width: 100%;
       }
     }
 
-    li#header-subtitle-performing {
-      top: 0;
-      left: 0;
-      background-color: $yellow-color;
-    }
+      nav {
+        float: none;
+        position: static;
+        display: block;
+        margin: 10px 0 0 $horizontal-margin;
 
-    li#header-subtitle-digital {
-      top: 0;
-      left: 25%;
-      background-color: $teal-color;
-    }
+        ul {
+          list-style: none;
 
-    li#header-subtitle-literary {
-      top: 0;
-      left: 50%;
-      background-color: $purple-color;
-    }
-
-    li#header-subtitle-visual {
-      top: 0;
-      left: 75%;
-      background-color: $red-color;
-    }
+          li {
+            padding: 0;
+            margin-top: 7.5px;
+            display: block;
+          }
+        }
+      }
   }
 }

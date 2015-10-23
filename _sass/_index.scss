@@ -1,0 +1,12 @@
+div#intro-video-container {
+  margin: 80px $horizontal-margin;
+  video {
+    width: 100%;
+  }
+}
+
+@media (max-width: $width-breakpoint) { 
+  div#intro-video-container {
+    margin: 30px $horizontal-margin;
+  }
+}
