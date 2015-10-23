@@ -1,0 +1,9 @@
+div#events {
+  div.event-photo-container {
+    margin: 30px $horizontal-margin;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

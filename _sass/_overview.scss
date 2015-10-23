@@ -72,3 +72,38 @@ ul#partners-list {
     width: 100%;
   }
 }
+
+div.instructor-container {
+  margin: 0 $horizontal-margin;
+
+  div.instructor-cell {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    margin: 10px 2% 10px 0;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  div.instructor-container div.instructor-cell {
+    width: 46%;
+  }
+}
+
+@media (max-width: 450px) {
+  div.instructor-container {
+    text-align: center;
+
+    div.instructor-cell {
+      text-align: left;
+      width: 50%;
+      margin: 10px 0;
+    }
+  }
+}

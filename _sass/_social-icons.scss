@@ -1,0 +1,13 @@
+div#social-icons {
+  background-color: $black-color;
+  padding: 0 $horizontal-margin;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
