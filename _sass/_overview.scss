@@ -49,12 +49,6 @@ div#program-overview {
   }
 }
 
-ul#partners-list {
-  list-style: square;
-  margin: 20px ($horizontal-margin + 20px);
-  font-size: 18px;
-}
-
 @media (max-width: $width-breakpoint) {
   img#overview-banner {
     margin-top: 30px;
