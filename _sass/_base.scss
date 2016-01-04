@@ -34,14 +34,17 @@ h2 {
 }
 
 h3 {
+  margin: 20px $horizontal-margin;
   font-size: 28px;
 }
 
 h4 {
+  margin: 20px $horizontal-margin;
   font-size: 22px;
 }
 
 h5 {
+  margin: 20px $horizontal-margin;
   font-size: 18px;
   font-weight: bold;
 }
@@ -69,6 +72,12 @@ em {
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+ul {
+  margin: 10px ($horizontal-margin + 10px);
+  padding-left: 10px;
+  list-style: square;
 }
 
 div.banner-spacer {
