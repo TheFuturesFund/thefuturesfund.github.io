@@ -1,12 +1,4 @@
-div#apply-form-container {
-  margin: 80px $horizontal-margin;
-  iframe {
-    width: 100%;
-  }
-}
-
-@media (max-width: $width-breakpoint) { 
-  div#apply-form-container {
-    margin: 30px $horizontal-margin;
-  }
+div.cognito {
+  max-width: 850px;
+  margin: auto;
 }
